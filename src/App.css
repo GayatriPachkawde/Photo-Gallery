@@ -1,0 +1,33 @@
+.heading {
+  width: 50%;
+  height: 100px;
+  background-color: black;
+  color: #fcdada;
+  text-align: center;
+  margin: auto;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: black;
+}
+
+button {
+  background-color: #734046;
+  border: none;
+  margin: 2px;
+  color: white;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 2px 2px #92817a;
+}

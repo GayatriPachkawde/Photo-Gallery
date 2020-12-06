@@ -1,0 +1,36 @@
+.image-holder {
+  width: 200px;
+  height: 330px;
+  margin-left: 5px;
+  margin-bottom: 14px;
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.title {
+  color: white;
+  padding-top: 0px;
+}
+
+.img {
+  object-fit: cover;
+  width: 185px;
+  height: 250px;
+  z-index: -1;
+  padding: 12px;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: black;
+}
